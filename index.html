@@ -19,10 +19,93 @@
 
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   </head>
   <body>
     <!--main container-->
     <div class="main_container">
+       <!--side bar-->
+      <aside class="side_bar">
+        <img class="my_picture" src="img/photo.jpg" alt="my photo" />
+
+        <!--contscts-->
+        <div class="contacts">
+          <h3 class="side_bar_title">Contacts</h3>
+          <div>
+            <span class="contacts_type">C:</span>
+            <a class="contacts_link" href="tel:+380963493178">+380963493178</a>
+          </div>
+          <div>
+            <span class="contacts_type">E:</span>
+            <a class="contacts_link" href="mailto:andriyhazit@gmail.com">andriyhazit@gmail.com</a>
+          </div>
+        </div>
+
+        <div class="program_Languages">
+          <h3 class="side_bar_title">Program Languages</h3>
+          <ul class="side_bar_list">
+            <li class="side_bar_list_items"><span class="side_bar_list_items_text">C# (beginner)</span></li>
+            <li class="side_bar_list_items"><span class="side_bar_list_items_text">C++ (beginner)</span></li>
+            <li class="side_bar_list_items"><span class="side_bar_list_items_text">Javascript (beginner)</span></li>
+            <li class="side_bar_list_items"><span class="side_bar_list_items_text">SQL (average)</span></li>
+          </ul>
+        </div>
+
+        <div class="also">
+          <h3 class="side_bar_title">Also</h3>
+          <ul class="side_bar_list">
+            <li class="side_bar_list_items"><span class="side_bar_list_items_text">HTML (average)</span></li>
+            <li class="side_bar_list_items"><span class="side_bar_list_items_text">CSS (average)</span></li>
+          </ul>
+        </div>
+
+        <div class="databases">
+          <h3 class="side_bar_title">Databases</h3>
+          <ul class="side_bar_list">
+            <li class="side_bar_list_items"><span class="side_bar_list_items_text">MySQL</span></li>
+          </ul>
+        </div>
+
+        <div class="languages">
+          <h3 class="side_bar_title">Languages</h3>
+          <ul class="side_bar_list">
+            <li class="side_bar_list_items"><span class="side_bar_list_items_text">Ukrainian (native)</span></li>
+            <li class="side_bar_list_items"><span class="side_bar_list_items_text">Russian (native)</span></li>
+            <li class="side_bar_list_items"><span class="side_bar_list_items_text">English (intermediate)</span></li>
+          </ul>
+        </div>
+
+        <div class="soft_skills">
+          <h3 class="side_bar_title">Soft skills</h3>
+          <ul class="side_bar_list">
+            <li class="side_bar_list_items"><span class="side_bar_list_items_text">Agile</span></li>
+            <li class="side_bar_list_items"><span class="side_bar_list_items_text">Scrum</span></li>
+            <li class="side_bar_list_items"><span class="side_bar_list_items_text">ITIL4</span></li>
+          </ul>
+        </div>
+        <div class="personal_qualities">
+          <h3 class="side_bar_title">Personal qualities</h3>
+          <ul class="side_bar_list">
+            <li class="side_bar_list_items"><span class="side_bar_list_items_text">Communication</span></li>
+            <li class="side_bar_list_items"><span class="side_bar_list_items_text">Punctuality</span></li>
+            <li class="side_bar_list_items"><span class="side_bar_list_items_text">Creativity</span></li>
+            <li class="side_bar_list_items"><span class="side_bar_list_items_text">Responsibility</span></li>
+            <li class="side_bar_list_items"><span class="side_bar_list_items_text">Management</span></li>
+          </ul>
+        </div>
+        <div class="interests">
+          <h3 class="side_bar_title">Interests</h3>
+          <ul class="side_bar_list">
+            <li class="side_bar_list_items"><span class="side_bar_list_items_text">Technology</span></li>
+            <li class="side_bar_list_items"><span class="side_bar_list_items_text">Books</span></li>
+            <li class="side_bar_list_items"><span class="side_bar_list_items_text">Bass Guitar</span></li>
+            <li class="side_bar_list_items"><span class="side_bar_list_items_text">Rubik's Cube</span></li>
+            <li class="side_bar_list_items"><span class="side_bar_list_items_text">Traveling</span></li>
+            <li class="side_bar_list_items"><span class="side_bar_list_items_text">Constant learning of new things</span></li>
+          </ul>
+        </div>
+      </aside>
       <!--About_me-->
       <div class="main_content">
         <div class="about_me">
@@ -44,7 +127,6 @@
             <!-- <h4>acting head of the subdivision</h4> -->
             <h4 class="work_experience_position">Technical Support <span class="work_experience_company"> Ultra-Company</span></h4>
             <p class="work_experience_period">10.2021 - present <span class="work_experience_divider">|</span> Khmelnytskyi, Ukraine</p>
-
             <ul class="work_experience_duties">
               <li class="work_experience_duty">processing of incoming calls</li>
               <li class="work_experience_duty">consultation of ULTRA clients and partners</li>
@@ -102,66 +184,6 @@
           <h5 class="my_education_period">09.2012 - 01.2018 <span class="work_experience_divider">|</span> Ukraine</h5>
         </div>
       </div>
-      <!--side bar-->
-      <aside class="side_bar">
-        <img class="my_picture" src="img/photo.jpg" alt="my photo" />
-
-        <!--contscts-->
-        <div class="contacts">
-          <h3 class="side_bar_title">Contacts</h3>
-          <div>
-            <span class="contacts_type">C:</span>
-            <a class="contacts_link" href="tel:+380963493178">+380963493178</a>
-          </div>
-          <div>
-            <span class="contacts_type">E:</span>
-            <a class="contacts_link" href="mailto:andriyhazit@gmail.com">andriyhazit@gmail.com</a>
-          </div>
-        </div>
-
-        <div class="program_Languages">
-          <h3 class="side_bar_title">Program Languages</h3>
-          <ul class="side_bar_list">
-            <li class="side_bar_list_items"><span class="side_bar_list_items_text">C# (beginner)</span></li>
-            <li class="side_bar_list_items"><span class="side_bar_list_items_text">C++ (beginner)</span></li>
-            <li class="side_bar_list_items"><span class="side_bar_list_items_text">Javascript (beginner)</span></li>
-            <li class="side_bar_list_items"><span class="side_bar_list_items_text">SQL (average)</span></li>
-          </ul>
-        </div>
-
-        <div class="also">
-          <h3 class="side_bar_title">Also</h3>
-          <ul class="side_bar_list">
-            <li class="side_bar_list_items"><span class="side_bar_list_items_text">HTML (average)</span></li>
-            <li class="side_bar_list_items"><span class="side_bar_list_items_text">CSS (average)</span></li>
-          </ul>
-        </div>
-
-        <div class="databases">
-          <h3 class="side_bar_title">Databases</h3>
-          <ul class="side_bar_list">
-            <li class="side_bar_list_items"><span class="side_bar_list_items_text">MySQL</span></li>
-          </ul>
-        </div>
-
-        <div class="languages">
-          <h3 class="side_bar_title">Languages</h3>
-          <ul class="side_bar_list">
-            <li class="side_bar_list_items"><span class="side_bar_list_items_text">Ukrainian (native)</span></li>
-            <li class="side_bar_list_items"><span class="side_bar_list_items_text">Russian (native)</span></li>
-            <li class="side_bar_list_items"><span class="side_bar_list_items_text">English (intermediate)</span></li>
-          </ul>
-        </div>
-
-        <div class="soft_skills">
-          <h3 class="side_bar_title">Soft_skills</h3>
-          <ul class="side_bar_list">
-            <li class="side_bar_list_items"><span class="side_bar_list_items_text">Agile</span></li>
-            <li class="side_bar_list_items"><span class="side_bar_list_items_text">Scrum</span></li>
-            <li class="side_bar_list_items"><span class="side_bar_list_items_text">ITIL4</span></li>
-          </ul>
-        </div>
-      </aside>
     </div>
   </body>
 </html>
