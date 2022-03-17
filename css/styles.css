@@ -6,7 +6,7 @@ body{
 
 .main_container{
     display: flex;
-    flex-direction: row-reverse; /* нашо revers?*/
+    flex-direction: row; /* нашо revers?*/
     width: 1200px;
     background: #fff;
     margin: 40px auto;
@@ -148,7 +148,9 @@ body{
 .also,
 .databases,
 .soft_skills,
-.languages
+.languages,
+.personal_qualities,
+.interests
 {
     margin: 50px 0 0 40px;
 
